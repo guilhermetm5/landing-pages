@@ -1,1 +1,118 @@
-/* Css do projeto */
+/* Configs Mundiais  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Header  */
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+
+/* CLasse Logo do Header  */
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navlist {
+    display: flex;
+}
+.navlist a {
+    color: #fff;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55 ease;
+}
+.navlist a:hover {
+    color: #fff;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+.witch {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #1f221f 0%, #2f362d 28.53%, #424941 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+section {
+    padding: 0 19%;
+}
+.witch-text h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.witch-text h1 {
+    font-family: "Permananent Market", cursive;
+    font-size: 90px;
+    line-height: 1;
+    color: #fff;
+    margin: 0 0 45px;
+}
+.witch-text h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.witch-text p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+.witch-img {
+    width: 700px;
+    height: auto;
+}
+.witch-text a {
+    display: inline-block;
+    color: #fff;
+    background: #4d9559;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+.witch-text a:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    transform: translateX(8px);
+}
+.witch-text a.ctta {
+    background: transparent;
+    border: 1px solid #fff;
+    margin-left: 20px;
+}
+.witch-text a.ctta i {
+    vertical-align: middle;
+    margin-right: 5px;
+}
