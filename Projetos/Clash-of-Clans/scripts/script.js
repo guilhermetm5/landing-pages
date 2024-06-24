@@ -1,6 +1,6 @@
 // Script JavaScript para o projeto
 let menu = document.querySelector('#icon-menu');
-let navlist = document.querySelector('navlist');
+let navlist = document.querySelector('.navlist');
 
 menu.onclick = () => {
   menu.classList.toggle('bx-x');
